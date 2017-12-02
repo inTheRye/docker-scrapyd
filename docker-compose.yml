@@ -1,0 +1,7 @@
+scrapyd:
+  build: scrapyd
+  ports:
+    - "6800:6800"
+  volumes:
+    - ./scrapyd/app:/app
+  restart: always
